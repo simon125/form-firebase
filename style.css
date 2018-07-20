@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #92bde7;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+.from-container{
+    width: 70vw;
+    height: 60vh;
+    background-color: #f9feff;
+    margin: 0 auto;
+}
+header{
+    margin-top: 10vh;
+    text-align: center;
+}
+header h1{
+    color: lightslategray;
+}
+header span{
+    color: #eee;
+}
