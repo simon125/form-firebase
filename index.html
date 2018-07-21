@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
     <title>Contact Form</title>
 </head>
 
@@ -20,36 +22,56 @@
         <div class="personal-data">
             <h2>Simon</h2>
             <ul>
-                <li>Lublin</li>
-                <li>668-406-181</li>
-                <li>szymqwerty@gmail.com</li>
+                <li>
+                    <i class="fas fa-street-view fa-sm"></i>
+                    Location
+                </li>
+                <li>
+                    <i class="fab fa-linkedin fa-sm"></i>
+                    Linkedin
+                </li>
+                <li>
+                    <i class="fas fa-phone fa-sm"></i>
+                    668-406-181
+                </li>
+                <li>
+                    <i class="fas fa-envelope fa-sm"></i>
+                    szymqwerty@gmail.com
+                </li>
             </ul>
         </div>
         <div class="main-form">
-            <form id="contactForm">
-                <p>
-                    <label>Name</label>
-                    <input type="text" name="name" id="name">
-                </p>
-                <p>
-                    <label>Company</label>
-                    <input type="text" name="company" id="company">
-                </p>
-                <p>
-                    <label>Email adress</label>
-                    <input type="text" name="email" id="email">
-                </p>
-                <p>
-                    <label>Phone number</label>
-                    <input type="text" name="phone" id="phone">
-                </p>
-                <p class="full">
-                    <label>Message</label>
-                    <textarea name="message" rows="5" id="message"></textarea>
-                </p>
-                <p class="full">
-                    <button type="submit">Submit</button>
-                </p>
+            <h3>Email Us</h3>
+            <form class="contact-form">
+                <div class="flex-item">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label>Company<input type="text" name="company" id="company"></label>
+                    </p>
+                </div>
+                <div class="flex-item">
+                    <p>
+                        <label>Email adress</label>
+                        <input type="text" name="email" id="email">
+                    </p>
+                    <p>
+                        <label>Phone number</label>
+                        <input type="text" name="phone" id="phone">
+                    </p>
+                </div>
+                <div class="flex-item flex-item-column">
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                        <button type="submit">Submit</button>
+                    </p>
+                </div>
+
             </form>
         </div>
     </section>
