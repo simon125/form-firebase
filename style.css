@@ -65,10 +65,15 @@ header span{
 .flex-item-column{
     flex-direction: column;
     align-items: center;
+    padding: 0 15px;
 }
 .contact-form p{
     margin: 15px;
     width: 50%;
+}
+.contact-form .full{
+    margin: 15px;
+    width: 100%;
 }
 .contact-form input{
     height: 30px;
@@ -85,17 +90,43 @@ header span{
     border: none;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: bold;
+    color: rgb(75, 83, 90);
 }
 .contact-form button:hover{
     background-color: #a3dff9;
 }
 
 @media only screen and (max-width: 480px){
+    header{
+        margin-top: 1vh;
+    }
+    h1{
+        margin: 0;
+        
+    }
+    h2{
+        display: none;
+    }
+
     .from-container{
         width: 95vw;
         background-color: #f9feff;
         margin: 0 auto;
         box-shadow: 14px 13px 42px 1px rgba(0,0,0,0.65);
     }
+}
+@media only screen and (max-width: 320px){
+
+    .flex-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        
+    }
+    .flex-item p{
+        width: 100%;
+        
+    }
+    
 }
