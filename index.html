@@ -42,11 +42,12 @@
         </div>
         <div class="main-form">
             <h3>Email Us</h3>
+            <div class="alert">Your message has benn sent</div>
             <form class="contact-form" id="contactForm">
                 <div class="flex-item">
                     <p>
                         <label>Name</label>
-                        <input type="text" name="name" id="name">
+                        <input type="text" name="name" id="name" required>
                     </p>
                     <p>
                         <label>Company<input type="text" name="company" id="company"></label>
@@ -55,7 +56,7 @@
                 <div class="flex-item">
                     <p>
                         <label>Email adress</label>
-                        <input type="text" name="email" id="email">
+                        <input type="text" name="email" id="email" required>
                     </p>
                     <p>
                         <label>Phone number</label>
@@ -77,7 +78,7 @@
     </section>
 
 
-
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
     <script src="scritp.js"></script>
 </body>
 

@@ -95,7 +95,14 @@ header span{
 .contact-form button:hover{
     background-color: #a3dff9;
 }
-
+.alert{
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+}
 @media only screen and (max-width: 480px){
     header{
         margin-top: 1vh;
